@@ -20,7 +20,7 @@ function updateSecurityCode(code) {
 }
 
 expirationDateMasked.on("accept", () => {
-  updateExpirationDate(expirationDate.value);
+  updateExpirationDate(expirationDateMasked.value);
 })
 
 function updateExpirationDate(date) {
