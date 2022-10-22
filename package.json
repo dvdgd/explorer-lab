@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvdgd/explorer-lab"
+  },
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,5 +18,8 @@
   },
   "devDependencies": {
     "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "imask": "^6.4.3"
   }
 }
